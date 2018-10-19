@@ -8,5 +8,17 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "அன்னைத்தமிழ்",
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies": {
+        "cordova-android": "^7.1.1",
+        "cordova-plugin-whitelist": "^1.3.3"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {}
+        },
+        "platforms": [
+            "android"
+        ]
+    }
 }
